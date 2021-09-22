@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Framework - Aplicativo Orquídea</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_modulo_registro.html">Modulo Registro</a></span>
+                > <span class="truncate-60"><a
+                    href="modulo-registro_ingresar-al-modulo-de-registro-desde-el-home__2.html">Ingresar al modulo de registro desde el home </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 30-08-2021 10:30</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Modulo Registro</span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario quiero registrarme para utilizar los servicios de Newstour
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Ingresar Al Modulo De Registro Desde El Home
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given 	El usuario se encuentra en el home de Newstour<br>When 		Hace click en el botón Register<br>And 		Ingresa First Name &lt;txtFirstName&gt;<br>And 		Ingresa Last name &lt;txtLastName&gt;<br>And 		Ingresa Phone &lt;txtPhone&gt;<br>And     Ingresa Email &lt;txtEmail&gt;<br>And 		Ingresa Address &lt;txtAddress&gt;<br>And 		Ingresa City &lt;txtCity&gt;<br>And 		Ingresa State/Province &lt;txtState&gt;<br>And 		Ingresa Postal Code &lt;txtPostalCode&gt;<br>And 		Ingresa Country &lt;lstCountry&gt;<br>And 		Ingresa User Name &lt;txtUser&gt;<br>And 		Ingresa Password &lt;txtPassword&gt;<br>And 		Ingresa Confirm Password &lt;txtConfirmPassword&gt;<br>And 		Hace clic en Enviar<br>Then 		Confirma registro<br><br>#    Examples:<br><table class='embedded'><thead><th>#</th><th>txtFirstName</th></thead><tbody><tr><td>#</td><td>"Willian"</td></tr></tbody></table><br></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="7301f13d845c20c2fff70d94101d0f2e47ae27fefa613650784cd919745c12f7.png" title="Ingresar al modulo de registro desde el home #1: {txtFirstName=&quot;Willian&quot;, txtLastName=&quot;Granados&quot;, txtPhone=&quot;3502440000&quot;, txtEmail=&quot;correo@prueba.com&quot;, txtAddress=&quot;Carrera 145 # 11-11&quot;, txtCity=&quot;Bogot&aacute;&quot;, txtState=&quot;Bogot&aacute;&quot;, txtPostalCode=&quot;11001000&quot;, lstCountry=&quot;Colombia&quot;, txtUser=&quot;wibon1013&quot;, txtPassword=&quot;123456789&quot;, txtConfirmPassword=&quot;123456789&quot;}" width="960"/>
+                <img src="0f1d514051a5a0e3e3199c1a45a8292ea3c20889378e27d54950557fbc8b79e8.png" title="Given El usuario se encuentra en el home de Newstour" width="960"/>
+                <img src="0f1d514051a5a0e3e3199c1a45a8292ea3c20889378e27d54950557fbc8b79e8.png" title="Abrir home" width="960"/>
+                <img src="scaled_6270a15f3aa87761e01cb774b78a8ca2910758bd50ebdffc58f462b130aa4425.png" title="When Hace click en el bot&oacute;n Register" width="960"/>
+                <img src="6270a15f3aa87761e01cb774b78a8ca2910758bd50ebdffc58f462b130aa4425.png" title="Click register" width="960"/>
+                <img src="scaled_32b57eba18db5880148e29ada6a2052909384776ab2d700f6c7d3b39ed650d56.png" title="And Ingresa First Name &quot;Willian&quot;" width="960"/>
+                <img src="32b57eba18db5880148e29ada6a2052909384776ab2d700f6c7d3b39ed650d56.png" title="Ingresa first name: Willian" width="960"/>
+                <img src="scaled_2b783cde25ad35e333216fcfc871fbfbf049bb30529504ec1c88f6443bb02db3.png" title="And Ingresa Last name &quot;Granados&quot;" width="960"/>
+                <img src="2b783cde25ad35e333216fcfc871fbfbf049bb30529504ec1c88f6443bb02db3.png" title="Ingresa last name: Granados" width="960"/>
+                <img src="scaled_eac0ddff3e17ff4dc2421d19998967b729ed23b8ebdb169717754f2bb3ee486f.png" title="And Ingresa Phone &quot;3502440000&quot;" width="960"/>
+                <img src="scaled_d0b89d959f8e6111caff4b61288afe67481016261987e415c9be5b9915ed34d0.png" title="Ingresa phone: 3502440000" width="960"/>
+                <img src="scaled_5de8a0554b74d26461bdb1c541bdf34d58fd0e00ad82ef23d9b4325b187ce3c0.png" title="And Ingresa Email &quot;correo@prueba.com&quot;" width="960"/>
+                <img src="scaled_a71693c487436d19777722143db8f8194769299e54772d1400239df3b0726722.png" title="Ingresa email: correo@prueba.com" width="960"/>
+                <img src="scaled_75bb6b8b7c862f9415ec9d5b8e9e9e266ed9f5d154b77fa5af7a3b603c20d37e.png" title="And Ingresa Address &quot;Carrera 145 # 11-11&quot;" width="960"/>
+                <img src="scaled_1fbcf4607e27a420a51e5a19dd795d2c2ab0567e049a65632f1dec7f05255e8f.png" title="Ingresa address: Carrera 145 # 11-11" width="960"/>
+                <img src="scaled_a074e1d12a9754a28f7746448e9a01d4dbb36531b10a5fa2cc825729b5e3df04.png" title="And Ingresa City &quot;Bogot&aacute;&quot;" width="960"/>
+                <img src="a074e1d12a9754a28f7746448e9a01d4dbb36531b10a5fa2cc825729b5e3df04.png" title="Ingresa city: Bogot&aacute;" width="960"/>
+                <img src="scaled_035c33b3e897923277dbf8b99f52f7a365d2aa4ecc68ee1633ae8f59411fa99e.png" title="And Ingresa State/Province &quot;Bogot&aacute;&quot;" width="960"/>
+                <img src="035c33b3e897923277dbf8b99f52f7a365d2aa4ecc68ee1633ae8f59411fa99e.png" title="Ingresa state: Bogot&aacute;" width="960"/>
+                <img src="scaled_71ea98ea5b367ef2a46e6d7e710bbdd38c6bec67371464e97a56813933b7d717.png" title="And Ingresa Postal Code &quot;11001000&quot;" width="960"/>
+                <img src="71ea98ea5b367ef2a46e6d7e710bbdd38c6bec67371464e97a56813933b7d717.png" title="Ingresa postal code: 11001000" width="960"/>
+                <img src="scaled_cc3b4faa9e5f3fec4f82f4b14060cace77b69234f72cb94b0e6048647a849340.png" title="And Ingresa Country &quot;Colombia&quot;" width="960"/>
+                <img src="cc3b4faa9e5f3fec4f82f4b14060cace77b69234f72cb94b0e6048647a849340.png" title="Ingresa country: Colombia" width="960"/>
+                <img src="scaled_4cf548c70d27a454629b547332468398ae3158e8003d77e48f54ba288a12656f.png" title="And Ingresa User Name &quot;wibon1013&quot;" width="960"/>
+                <img src="scaled_5ec2ecc964a0c819559f8ffce669f2d0049d0e4f74e9d11bfbcd3946c20d3a44.png" title="Ingresa user: wibon1013" width="960"/>
+                <img src="scaled_6e323753a00da5d2a724f32e375c6daeac3d429821b1b0e340ae6ef069e85802.png" title="And Ingresa Password &quot;123456789&quot;" width="960"/>
+                <img src="scaled_7a2033f8b62244a01702e601da12268addf6672ca7b85087d7d0ba0dbfc85610.png" title="Ingresa password: 123456789" width="960"/>
+                <img src="scaled_216d644840beb04d9772760f5c8c1a27d20da9d6baccefb8b1230d9bdfd96f6c.png" title="And Ingresa Confirm Password &quot;123456789&quot;" width="960"/>
+                <img src="216d644840beb04d9772760f5c8c1a27d20da9d6baccefb8b1230d9bdfd96f6c.png" title="Ingresa confirm password: 123456789" width="960"/>
+                <img src="7301f13d845c20c2fff70d94101d0f2e47ae27fefa613650784cd919745c12f7.png" title="And Hace clic en Enviar" width="960"/>
+                <img src="7301f13d845c20c2fff70d94101d0f2e47ae27fefa613650784cd919745c12f7.png" title="Click enviar" width="960"/>
+                <img src="7301f13d845c20c2fff70d94101d0f2e47ae27fefa613650784cd919745c12f7.png" title="Then Confirma registro" width="960"/>
+                <img src="7301f13d845c20c2fff70d94101d0f2e47ae27fefa613650784cd919745c12f7.png" title="Confirma registro: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>
